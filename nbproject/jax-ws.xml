@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="logicaSW">
+      <implementation-class>sv.logicaSW</implementation-class>
+    </service>
+    <service name="TarjetaC">
+      <implementation-class>models.TarjetaC</implementation-class>
+    </service>
+    <service name="Hotel">
+      <implementation-class>models.Hotel</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
